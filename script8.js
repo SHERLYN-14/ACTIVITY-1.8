@@ -1,7 +1,7 @@
-import * as three from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import * as dat from 'lil-gui'
-import gsap from 'gsap'
+import * as three from "https://esm.sh/three"
+import { OrbitControls } from "https://esm.sh/three/examples/jsm/controls/OrbitControls.js"
+import * as dat from "https://esm.sh/lil-gui"
+import gsap from "https://esm.sh/gsap"
 
 const canvas = document.querySelector('canvas.webgl');
 
